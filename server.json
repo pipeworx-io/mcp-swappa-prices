@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/swappa-prices",
   "title": "Swappa Prices",
   "description": "Swappa MCP — daily used-device prices and realized sale comps.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/swappa-prices",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-swappa-prices",
