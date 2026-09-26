@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-swappa-prices",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Swappa MCP — daily used-device prices and realized sale comps.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-895e29901d96318ff0cfb0e41c18cf29146fd7257c36fe609289b321cfe4e892",
-    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
+    "sourceHash": "v1-592f78e13fa3a5fd519156dd26e5aa575f7909ddcd36982fb95001047649db3d",
+    "sourceCommit": "d4a9636716f113458bd312e487c065f76548df8c"
   }
 }
