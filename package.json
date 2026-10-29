@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-swappa-prices",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Swappa MCP — daily used-device prices and realized sale comps.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-swappa-prices": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "swappa-prices"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-swappa-prices.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/swappa-prices",
   "pipeworx": {
-    "sourceHash": "v1-592f78e13fa3a5fd519156dd26e5aa575f7909ddcd36982fb95001047649db3d",
-    "sourceCommit": "d4a9636716f113458bd312e487c065f76548df8c"
+    "mode": "gateway",
+    "slug": "swappa-prices",
+    "gatewaySlug": "swappa-prices",
+    "sourceHash": "v1-b194275b4d9c6abbaeec46e6f961d70cde238fcd728983fcb294a5994c7c20ca",
+    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
   }
 }
